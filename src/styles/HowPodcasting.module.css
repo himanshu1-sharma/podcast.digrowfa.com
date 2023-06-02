@@ -1,0 +1,218 @@
+.howPodcastingBg {
+    /* background-color: var(--bg-dark); */
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("/home/background.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.howPodcastingOverlay {
+    position: relative;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.474);
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.howPodcastingTitle h2 {
+    color: var(--white);
+    text-align: center;
+    font-family: boldfont;
+    font-size: 42px;
+    line-height: 1.3;
+}
+
+.howPodcastingTitle h2 span {
+    font-family: boldfont;
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.howPodcastCard {
+    padding: 2rem;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    border-bottom: 5px solid rgb(50, 50, 50);
+    transition: 0.5s ease-in-out;
+}
+
+.howPodcastCard h4 {
+    font-family: boldfont;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.howPodcastCard p {
+    margin: 1.5rem 0;
+}
+
+.howPodcastCard button {
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 0.4em;
+    border-bottom: 5px solid rgb(50, 50, 50);
+    margin-top: 3rem;
+}
+
+.howPodcastCard.one {
+    background-color: var(--yellow);
+}
+
+.howPodcastCard.two {
+    background-color: #57C9DA;
+}
+
+.howPodcastCard.three {
+    background-color: #FFADAD;
+}
+
+.howPodcastingCircle {
+    width: 900px;
+    height: 900px;
+    border: 1px solid #CCC;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background: var(--yellow);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation: circle 20s linear infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg) translate(-450px) rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-450px) rotate(-360deg);
+    }
+}
+
+#howPodcastingBg {
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .howPodcastingCircle {
+        display: none;
+    }
+
+    .howPodcastingTitle h2 {
+        font-size: 22px;
+    }
+
+    .howPodcastCard {
+        height: auto;
+        text-align: justify;
+    }
+
+    .howPodcastCard h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .howPodcastingCircle {
+        display: none;
+    }
+
+    .howPodcastingTitle h2 {
+        font-size: 22px;
+    }
+
+    .howPodcastCard {
+        height: auto;
+        text-align: justify;
+    }
+
+    .howPodcastCard h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .howPodcastingCircle {
+        display: none;
+    }
+
+    .howPodcastingTitle h2 {
+        font-size: 22px;
+    }
+
+    .howPodcastCard {
+        height: auto;
+        text-align: justify;
+    }
+
+    .howPodcastCard h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .howPodcastingCircle {
+        display: none;
+    }
+
+    .howPodcastingTitle h2 {
+        font-size: 22px;
+    }
+
+    .howPodcastCard {
+        height: auto;
+        text-align: justify;
+    }
+
+    .howPodcastCard h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

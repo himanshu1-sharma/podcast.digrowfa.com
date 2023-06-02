@@ -1,0 +1,141 @@
+.upcommingPodcastBg {
+    padding: 8rem 0;
+    background-image: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+.upcommingPodcastTitle h2 {
+    text-align: center;
+    font-family: boldfont;
+    font-size: 42px;
+    margin-bottom: 5rem;
+}
+
+
+.upcommingPodcastCardContent {
+    margin-top: 1.5rem;
+}
+
+.upcommingPodcastCardImg img {
+    border-radius: 10px;
+}
+
+.upcommingPodcastCardContent h4 {
+    font-family: boldfont;
+}
+
+.upcommingPodcastCardContent ul {
+    display: flex;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    list-style-type: none;
+}
+
+.upcommingPodcastCardContent ul li {
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: boldfont;
+}
+
+.upcommingPodcastCardContent button {
+    background: var(--yellow);
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 0.4em;
+    border-bottom: 5px solid rgb(50, 50, 50);
+}
+
+.upcommingPodcastCardNext {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.upcommingPodcastCardNext h2 {
+    font-family: boldfont;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .upcommingPodcastTitle h2 {
+        font-size: 22px;
+    }
+
+    .upcommingPodcastCard {
+        margin-bottom: 5rem;
+    }
+
+    .upcommingPodcastCardNext h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .upcommingPodcastTitle h2 {
+        font-size: 22px;
+    }
+
+    .upcommingPodcastCard {
+        margin-bottom: 5rem;
+    }
+
+    .upcommingPodcastCardNext h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .upcommingPodcastTitle h2 {
+        font-size: 22px;
+    }
+
+    .upcommingPodcastCard {
+        margin-bottom: 5rem;
+    }
+
+    .upcommingPodcastCardNext h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .upcommingPodcastTitle h2 {
+        font-size: 22px;
+    }
+
+    .upcommingPodcastCard {
+        margin-bottom: 5rem;
+    }
+
+    .upcommingPodcastCardNext h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

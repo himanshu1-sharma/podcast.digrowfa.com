@@ -1,0 +1,105 @@
+.aboutBg {
+    /* background-color: #e8e8e8; */
+    background-image: linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    padding: 5rem 0;
+}
+
+.aboutContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.aboutImage {
+    margin: 2rem 0;
+}
+
+.aboutContent h4 {
+    font-family: boldfont;
+    font-size: 44px;
+}
+
+.aboutContent p {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .aboutContent {
+        padding: 0;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutContent h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .aboutContent {
+        padding: 0;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutContent h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .aboutContent {
+        padding: 0;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutContent h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .aboutContent {
+        padding: 0;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutContent h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

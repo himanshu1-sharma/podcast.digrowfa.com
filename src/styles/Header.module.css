@@ -1,0 +1,193 @@
+.headerBg {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #e8e8e8; */
+    /* background-image: linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
+    background-image: url("/home/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.headerOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.848), black);
+
+}
+
+.headerContent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.headerContent h1 {
+    font-size: 50px;
+    font-family: boldfont;
+    color: var(--white);
+}
+
+.headerContent p {
+    font-size: 18px;
+    margin: 2rem 0;
+    color: var(--white);
+}
+
+.homeSilderCard {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid var(--white);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.headerSlider {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeSilderCard.one {
+    background-image: url("/home/1.jpg");
+}
+
+.homeSilderCard.two {
+    background-image: url("/home/2.jpg");
+}
+
+.homeSilderCard.three {
+    background-image: url("/home/3.jpg");
+}
+
+.homeSilderCard.four {
+    background-image: url("/home/4.jpg");
+}
+
+.homeSilderCard.five {
+    background-image: url("/home/5.jpg");
+}
+
+.homeSilderCard.six {
+    background-image: url("/home/6.jpg");
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .headerBg {
+        height: 1000px;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent h1 {
+        font-size: 30px;
+    }
+
+    .headerContent {
+        height: auto;
+        padding: 8rem 0 5rem 0;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .headerBg {
+        height: 1000px;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent h1 {
+        font-size: 30px;
+    }
+
+    .headerContent {
+        height: auto;
+        padding: 8rem 0 5rem 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .headerBg {
+        height: 1000px;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent h1 {
+        font-size: 30px;
+    }
+
+    .headerContent {
+        height: auto;
+        padding: 8rem 0 5rem 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .headerBg {
+        height: 1000px;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent h1 {
+        font-size: 30px;
+    }
+
+    .headerContent {
+        height: auto;
+        padding: 8rem 0 5rem 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

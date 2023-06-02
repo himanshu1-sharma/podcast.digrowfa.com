@@ -1,0 +1,116 @@
+/* ====navigation===== */
+
+/* #light #lightLogo {
+    display: none;
+}
+
+#dark #darkLogo {
+    display: none;
+} */
+
+/* #dark #navigation {
+    background-color: var(--bg-dark);
+} */
+
+/* ======end====== */
+
+/* ===header===== */
+
+
+
+#dark #headerContent h1,
+#dark #aboutContent h4 {
+    color: var(--white);
+}
+
+#dark #headerContent p,
+#dark #aboutContent p {
+    color: var(--white);
+    opacity: 0.8;
+}
+
+#dark #commonButton button,
+#dark #callToActionContent button {
+    border-color: var(--yellow);
+    background-color: transparent;
+    color: var(--yellow);
+}
+
+#dark #storyBox>div:first-child {
+    border-color: var(--yellow);
+}
+
+/* ====end==== */
+
+/* ====start podcast==== */
+
+#dark #startPodcastBg,
+#dark #upcommingPodcastBg {
+    background-color: #222222;
+    background-image: none;
+}
+
+#dark #StartPodcastCard {
+    border-color: var(--white);
+}
+
+#dark #StartPodcastCard h2,
+#dark #StartPodcastCard h4,
+#dark #StartPodcastCard p {
+    color: var(--white);
+}
+
+/* =====end====== */
+
+/* ===about===== */
+
+#dark #aboutBg,
+#dark #contactBg {
+    background-color: var(--bg-dark);
+    background-image: none;
+}
+
+
+/* ===end==== */
+
+/* ===call to action==== */
+
+#dark #callToActionBg {
+    background-color: var(--bg-dark);
+}
+
+#dark #callToActionContent h2 {
+    color: var(--white);
+}
+
+#dark #callToActionContent h2 span {
+    color: var(--yellow);
+}
+
+/* ====end==== */
+
+
+/* =====upcommingPodcast===== */
+#dark #upcommingPodcastTitle h2 {
+    color: var(--white);
+}
+
+#dark #upcommingPodcastCardContent h4,
+#dark #upcommingPodcastCardContent p,
+#dark #upcommingPodcastCardContent ul li,
+#dark #upcommingPodcastCardNext h2 {
+    color: var(--white);
+}
+
+/* ======end====== */
+
+/* =====contact===== */
+#dark #contactTitle h2,
+#dark #contactForm label,
+#dark #contactForm h4,
+#dark #contactForm input {
+    color: var(--white);
+}
+
+
+/* ======end====== */
